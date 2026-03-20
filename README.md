@@ -2,109 +2,53 @@
 
 A beautiful and feature-rich expense tracking app built with Jetpack Compose, offering comprehensive financial management with a modern Material 3 design.
 
-
 ## 🚀 Download
 
 ### Direct APK Download
 
 [![Download Expense Tracker](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge)](https://raw.githubusercontent.com/0xJihan/Pocket-Log/main/Pocket-Log.apk)
 
-
-## 🆕 What's New (v2.0)
-
-### 🧮 Calculator-Based Input
-- calculator for adding/editing expenses
-- Support for expressions like `200 + 50`, `500 - 120`
-- Live preview of calculated amount
-- Operators: +, −, ×, ÷
-
-### 📊 Advanced Insights & Analytics
-- Dedicated analytics screen with beautiful charts
-- Filter by Today, Week, Month, Year, or custom range
-- Total spent, daily average, highest spending day
-- Category breakdown with progress bars
-
-### 💰 Budget Management
-- Set monthly overall budget limits
-- Optional per-category budgets
-- Visual warnings at configurable thresholds (50-95%)
-- Track remaining budget in real-time
-
-### 🗑️ Soft Delete & Trash
-- Deleted items go to Trash instead of permanent deletion
-- Restore accidentally deleted transactions
-- Auto-delete after 30 days
-- Empty trash option
-
-### 📤 Data Export & Import
-- Export to JSON (full backup with all data)
-- Export to CSV (Excel-compatible)
-- Date-range export support
-- Import with duplicate handling (Skip/Merge/Overwrite)
-- Schema version checking for compatibility
-
-### 📝 Notes & Tags
-- Add notes to any transaction
-- Custom tags for better organization
-- Search by notes and tags
-
-
-
-### 🔐 App Lock & Security
-- Optional PIN lock (4-digit)
-- Biometric (fingerprint) authentication
-- Auto-lock on app exit
-- Secure PIN storage with SHA-256 hashing
-
-### 🔍 Smart Search
-- Search by amount, category, description
-- Search by notes and tags
-- Date range filtering
-- Optimized Room queries with indexes
-
 ---
 
 ## ✨ Features
 
-### 📊 Financial Management
-- **Track Income & Expenses** - Monitor your financial transactions with ease
-- **Category Management** - Create, edit, and delete custom categories
-- **Bulk Operations** - Delete all expenses under a category at once
-- **Visual Analytics** - Beautiful pie chart breakdown of your expenses
-- **Budget Limits** - Set and track monthly spending limits
+### 📊 Comprehensive Financial Management
+- **Track Income & Expenses** - Effortlessly record and monitor every financial transaction.
+- **Visual Analytics** - Dynamic **Line Charts** and beautiful **Pie Charts** for detailed trend analysis and expense breakdowns.
+- **Budgeting** - Set monthly spending limits for the whole app or specific categories with real-time tracking and visual warnings.
+- **Smart Search & Filters** - Quickly find transactions by amount, category, description, notes, tags, or specific date ranges.
 
-### 🎨 User Experience
-- **Material 3 Design** - Modern, clean, and intuitive interface
-- **Dark/Light Theme** - Built-in dark mode support
-- **Color Picker** - Personalize categories with custom colors
-- **Beautiful Icons** - Thoughtfully designed iconography
-- **Calculator Input** - Natural expense entry with expressions
+### 🤝 Debt & Loan Management (দেনা-পাওনা)
+- **Profile-Based Tracking** - Organize your lending and borrowing transactions by person/profile.
+- **History & Filtering** - Detailed record for each profile with advanced filtering (Debt, Loan, All).
+- **Net Balance Visibility** - Color-coded status updates ("You'll Get", "You'll Pay", "Settled") for instant financial clarity.
+- **Full Control** - Seamlessly add, edit, or delete debt records with intuitive dialogs.
 
-### 🔍 Transaction Management
-- **Transaction History** - View all your financial records
-- **Advanced Filtering** - Filter by all, income,expense,tags and date range transactions
-- **Search Functionality** - Smart search across all fields
-- **Edit/Delete** - Modify or remove transactions as needed
-- **Soft Delete** - Recover deleted items from Trash
+### 🏦 Balance Source Organization (Wallets/Accounts)
+- **Multi-Source Support** - Distribute your balance across various virtual or physical sources like Bank, Bkash, Nagad, Cash, or Binance.
+- **Instant Fund Transfers** - Move money between sources effortlessly with a dedicated transfer log and descriptive notes.
+- **Account Summaries** - View individual current balances and descriptive details for every financial source independently.
 
-### 🔒 Security & Privacy
-- **App Lock** - PIN and biometric protection
-- **Encrypted Storage** - Secure local data storage
-- **Offline-First** - Works completely offline
-- **No Internet Required** - Your data never leaves your device
+### 🎨 Premium User Experience & Personalization
+- **16+ Premium Themes** - Choose from a wide variety of professionally curated themes (e.g., Sunset Glow, Cyber Neon, Arctic Frost).
+- **Material 3 Design** - Modern, clean, and intuitive interface with seamless Dark/Light mode support and dynamic coloring.
+- **Calculator-Based Input** - Natural expense entry with direct expression support (e.g., `200 + 50`) and live previews.
+- **Custom Categories** - Personalize categories with a beautiful color picker and a wide selection of icons.
 
-### 📤 Backup & Restore
-- **JSON Export** - Full backup of all data
-- **CSV Export** - Open in Excel or Google Sheets
-- **Easy Import** - Restore from backup files
-- **Schema Versioning** - Future-proof backups
+### 🔒 Security, Privacy & Control
+- **App Lock** - Protect your financial data with a secure 4-digit PIN or **Biometric (Fingerprint)** authentication.
+- **Soft Delete & Trash** - Deleted items are moved to Trash for 30 days, allowing easy restoration of accidentally removed records.
+- **Offline-First** - Works completely offline; your sensitive financial data never leaves your device and no internet is required.
+- **Secure Storage** - Local data persistence using Room with optimized queries and indexing.
 
-### 🛠 Technical Features
-- **Type-Safe Navigation** - Built with Jetpack Compose Navigation
-- **Dependency Injection** - Powered by Koin
-- **Ad-Free Experience** - No advertisements, completely free
+### 📤 Backup & Data Portability
+- **JSON Export & Import** - Full backup and restoration of all application data with schema version checking.
+- **CSV Export** - Export your transaction history to Excel-compatible files for external analysis.
+- **Duplicate Prevention** - Choose to Skip, Merge, or Overwrite duplicates during the import process.
 
-## Screenshots
+---
+
+## 📱 Screenshots
 
 ### Home Screen
 | Light Mode | Dark Mode |
@@ -127,21 +71,31 @@ A beautiful and feature-rich expense tracking app built with Jetpack Compose, of
 | <img src="arts/budget_light.png" width="300" /> | <img src="arts/budget_dark.png" width="300" /> |
 
 
+### Themes
+| Light Mode | Dark Mode |
+|:---:|:---:|
+| <img src="arts/themes_light.png" width="300" /> | <img src="arts/themes_dark.png" width="300" /> |
+---
 
+## 🏗 Tech Stack
 
-
+- **UI Framework**: Jetpack Compose (Material 3)
+- **Language**: Kotlin
+- **Architecture**: MVI / Clean Architecture
+- **Dependency Injection**: Koin
+- **Database**: Room (Offline-first)
+- **Navigation**: Type-Safe Compose Navigation
+- **Icons & Graphics**: Vecto Library
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 ## 📧 Contact
 
 If you have any questions or suggestions, feel free to reach out:
 
 - GitHub: [@0xJihan](https://github.com/0xJihan)
-
 
 ---
 
