@@ -4,9 +4,13 @@ A beautiful and feature-rich expense tracking app built with Jetpack Compose, of
 
 ## 🚀 Download
 
-### Direct APK Download
+<a href="https://github.com/0xJihan/Pocket-Log/releases">
+   <img src="https://i.ibb.co/q0mdc4Z/get-it-on-github.png" height="64"/>
+</a>
 
-[![Download Expense Tracker](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge)](https://raw.githubusercontent.com/0xJihan/Pocket-Log/main/Pocket-Log.apk)
+<a href="https://github-store.org/app?repo=OpenHub-Store/GitHub-Store">
+  <img src="https://raw.githubusercontent.com/OpenHub-Store/GitHub-Store/refs/heads/main/media-resources/ghs_download_badge.png" alt="Get it on GitHub Store" height="64">
+</a>
 
 ---
 
