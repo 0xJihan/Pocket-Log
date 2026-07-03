@@ -7,25 +7,18 @@ A beautiful, modern, and feature-rich expense tracker built with **Jetpack Compo
 # 🚀 Download
 
 <p align="center">
-
-<a href="https://github.com/0xJihan/Pocket-Log/releases/latest/download/PocketLog.apk">
-    <img src="https://img.shields.io/badge/Direct%20APK%20Download-Download-34A853?style=for-the-badge&logo=android&logoColor=white"/>
-</a>
-
-  
-
-<a href="https://github.com/0xJihan/Pocket-Log/releases">
+  <a href="https://github.com/0xJihan/Pocket-Log/releases/latest/download/PocketLog.apk">
+    <img src="https://img.shields.io/badge/Direct%20APK%20Download-34A853?style=for-the-badge&logo=android&logoColor=white" height="64"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/0xJihan/Pocket-Log/releases">
     <img src="https://i.ibb.co/q0mdc4Z/get-it-on-github.png" height="64"/>
-</a>
-
-  
-
-<a href="https://github-store.org/app?repo=OpenHub-Store/GitHub-Store">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github-store.org/app?repo=OpenHub-Store/GitHub-Store">
     <img src="https://raw.githubusercontent.com/OpenHub-Store/GitHub-Store/refs/heads/main/media-resources/ghs_download_badge.png" height="64"/>
-</a>
-
+  </a>
 </p>
-
 
 
 # 📱 Screenshots
