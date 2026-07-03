@@ -7,7 +7,7 @@ A beautiful, modern, and feature-rich expense tracker built with **Jetpack Compo
 # 🚀 Download
 
 <p align="center">
-  <a href="https://github.com/0xJihan/Pocket-Log/releases/latest/download/PocketLog.apk">
+  <a href="https://github.com/0xJihan/Pocket-Log/releases/latest/download/app-release.apk">
     <img src="https://img.shields.io/badge/Direct%20APK%20Download-34A853?style=for-the-badge&logo=android&logoColor=white" height="64"/>
   </a>
   &nbsp;&nbsp;
